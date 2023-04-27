@@ -9,7 +9,7 @@ def cli():
 
 @cli.command()
 def create_pre_commit():
-    pre_commit_script = """#!/bin/sh\npython3 -c "import script"""
+    pre_commit_script = '"#!/bin/sh\npython3 -c "import script"'
 
 
     hooks_dir = os.path.join(".git", "hooks")
