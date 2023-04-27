@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "githook-arqmeds"
+version = "0.1.0"
+description = ""
+authors = ["kaiqueBellmont <kaiquebellmont@gmail.com>"]
+readme = "README.md"
+packages = [{include = "githook_arqmeds"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core", "pre-commit", "click"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+pre-commit-init = ".cli:init"
+
+
+
