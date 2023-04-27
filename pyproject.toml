@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["kaiqueBellmont <kaiquebellmont@gmail.com>"]
 readme = "README.md"
-packages = [{include = "githook_arqmeds"}]
+packages = [{include = "scripts"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
