@@ -11,7 +11,7 @@ def cli():
 def create_pre_commit():
     pre_commit_script = '"#!/bin/sh\npython3 -c "import script"'
 
-
+    # teste
     hooks_dir = os.path.join(".git", "hooks")
     pre_commit_path = os.path.join(hooks_dir, "pre-commit")
 
